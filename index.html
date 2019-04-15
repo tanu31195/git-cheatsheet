@@ -1,85 +1,264 @@
-<hr />
-
 <h2 id="configurations">Configurations</h2>
-
-<p>|Description                    | Command                                           |
-|---                            |---                                                |
-|Show git configs               |  <code>git config --list</code>                              |
-|Show username                  |  <code>git config --global user.name</code>                  |
-|Set username                   |  <code>git config --global user.name "username"</code>       |
-|Show email                     |  <code>git config --global user.email</code>                 |
-|Set email                      |  <code>git config --global user.email "email"</code>         |</p>
-
+<table>
+<thead>
+<tr class="header">
+<th align="left">Description</th>
+<th align="left">Command</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Show git configs</td>
+<td align="left"><code>git config --list</code></td>
+</tr>
+<tr class="even">
+<td align="left">Show username</td>
+<td align="left"><code>git config --global user.name</code></td>
+</tr>
+<tr class="odd">
+<td align="left">Set username</td>
+<td align="left"><code>git config --global user.name &quot;username&quot;</code></td>
+</tr>
+<tr class="even">
+<td align="left">Show email</td>
+<td align="left"><code>git config --global user.email</code></td>
+</tr>
+<tr class="odd">
+<td align="left">Set email</td>
+<td align="left"><code>git config --global user.email &quot;email&quot;</code></td>
+</tr>
+</tbody>
+</table>
 <h2 id="remotes">Remotes</h2>
-
-<p>|Description                    | Command                                           |
-|---                            |---                                                |
-|List remotes                   |  <code>git remote -v</code>                                  |
-|List remote branches           |  <code>git ls-remote --heads origin</code>                   |
-|Add a remote                   |  <code>git remote add &lt;remote-name&gt; &lt;remote-url&gt;</code>      |
-|Remove a remote                |  <code>git remote rm &lt;remote-name&gt;</code>                    |</p>
-
+<table>
+<thead>
+<tr class="header">
+<th align="left">Description</th>
+<th align="left">Command</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">List remotes</td>
+<td align="left"><code>git remote -v</code></td>
+</tr>
+<tr class="even">
+<td align="left">List remote branches</td>
+<td align="left"><code>git ls-remote --heads origin</code></td>
+</tr>
+<tr class="odd">
+<td align="left">Add a remote</td>
+<td align="left"><code>git remote add &lt;remote-name&gt; &lt;remote-url&gt;</code></td>
+</tr>
+<tr class="even">
+<td align="left">Remove a remote</td>
+<td align="left"><code>git remote rm &lt;remote-name&gt;</code></td>
+</tr>
+</tbody>
+</table>
 <h2 id="commit">Commit</h2>
-
-<p>|Description                    | Command                                           |
-|---                            |---                                                |
-|Check Untracked Files          |  <code>git status</code>                                     |
-|Git add untracked file         |  <code>git add $filename</code>                              |
-|Git add all                    |  <code>git add .</code>                                      |
-|Git commit                     |  <code>git commit -m "commit message"</code>                 |
-|Git push                       |  <code>git push &lt;remote-name&gt; &lt;remote-branch&gt;</code>         |
-|Git commit to previous commit  |  <code>git commit --amend</code>                             |
-|Git pull from remote           |  <code>git pull &lt;remate-name&gt; &lt;branch-branch&gt;</code>         |
-|Git rebase with remote         |  <code>git pull --rebase &lt;remote-name&gt; &lt;branch-name&gt;</code>  |</p>
-
+<table>
+<thead>
+<tr class="header">
+<th align="left">Description</th>
+<th align="left">Command</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Check Untracked Files</td>
+<td align="left"><code>git status</code></td>
+</tr>
+<tr class="even">
+<td align="left">Git add untracked file</td>
+<td align="left"><code>git add $filename</code></td>
+</tr>
+<tr class="odd">
+<td align="left">Git add all</td>
+<td align="left"><code>git add .</code></td>
+</tr>
+<tr class="even">
+<td align="left">Git commit</td>
+<td align="left"><code>git commit -m &quot;commit message&quot;</code></td>
+</tr>
+<tr class="odd">
+<td align="left">Git push</td>
+<td align="left"><code>git push &lt;remote-name&gt; &lt;remote-branch&gt;</code></td>
+</tr>
+<tr class="even">
+<td align="left">Git commit to previous commit</td>
+<td align="left"><code>git commit --amend</code></td>
+</tr>
+<tr class="odd">
+<td align="left">Git pull from remote</td>
+<td align="left"><code>git pull &lt;remate-name&gt; &lt;branch-branch&gt;</code></td>
+</tr>
+<tr class="even">
+<td align="left">Git rebase with remote</td>
+<td align="left"><code>git pull --rebase &lt;remote-name&gt; &lt;branch-name&gt;</code></td>
+</tr>
+</tbody>
+</table>
 <h2 id="branch">Branch</h2>
-
-<p>|Description                    | Command                                           |
-|---                            |---                                                |
-|Show current branch            |  <code>git branch</code>                                     |
-|Show remote branch             |  <code>git ls-remote --heads origin</code>                  |
-|Git add new local branch       |  <code>git branch &lt;branch-name&gt;</code>                       |
-|Git checkout to branch         |  <code>git checkout &lt;branch-name&gt;</code>                     |
-|Git create and checkout        |  <code>git checkout -b &lt;branch-name&gt;</code>                  |
-|Delete a local branch          |  <code>git branch -d &lt;branch-name&gt;</code>                    |
-|Delete a remote branch         |  <code>git push origin --delete &lt;branch_name&gt;</code>         |</p>
-
+<table>
+<thead>
+<tr class="header">
+<th align="left">Description</th>
+<th align="left">Command</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Show current branch</td>
+<td align="left"><code>git branch</code></td>
+</tr>
+<tr class="even">
+<td align="left">Show remote branch</td>
+<td align="left"><code>git ls-remote --heads origin</code></td>
+</tr>
+<tr class="odd">
+<td align="left">Git add new local branch</td>
+<td align="left"><code>git branch &lt;branch-name&gt;</code></td>
+</tr>
+<tr class="even">
+<td align="left">Git checkout to branch</td>
+<td align="left"><code>git checkout &lt;branch-name&gt;</code></td>
+</tr>
+<tr class="odd">
+<td align="left">Git create and checkout</td>
+<td align="left"><code>git checkout -b &lt;branch-name&gt;</code></td>
+</tr>
+<tr class="even">
+<td align="left">Delete a local branch</td>
+<td align="left"><code>git branch -d &lt;branch-name&gt;</code></td>
+</tr>
+<tr class="odd">
+<td align="left">Delete a remote branch</td>
+<td align="left"><code>git push origin --delete &lt;branch_name&gt;</code></td>
+</tr>
+</tbody>
+</table>
 <h2 id="diff">Diff</h2>
-
-<p>|Description                    | Command                                           |
-|---                            |---                                                |
-|Git diff file                  |  <code>git diff $filename</code>                             |
-|Git diff two revision          |  <code>git diff $sha1 $sha2</code>                           |
-|Git diff only file name        |  <code>git diff --name-only $sha1$sha2</code>                |
-|Compare git diff after commit    |  <code>git diff --cached</code>                              |
-|Compate branches               |  <code>git diff &lt;branch_1&gt; &lt;branch_2&gt;</code>                 |</p>
-
+<table>
+<thead>
+<tr class="header">
+<th align="left">Description</th>
+<th align="left">Command</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Git diff file</td>
+<td align="left"><code>git diff $filename</code></td>
+</tr>
+<tr class="even">
+<td align="left">Git diff two revision</td>
+<td align="left"><code>git diff $sha1 $sha2</code></td>
+</tr>
+<tr class="odd">
+<td align="left">Git diff only file name</td>
+<td align="left"><code>git diff --name-only $sha1$sha2</code></td>
+</tr>
+<tr class="even">
+<td align="left">Compare git diff after commit</td>
+<td align="left"><code>git diff --cached</code></td>
+</tr>
+<tr class="odd">
+<td align="left">Compate branches</td>
+<td align="left"><code>git diff &lt;branch_1&gt; &lt;branch_2&gt;</code></td>
+</tr>
+</tbody>
+</table>
 <h2 id="log">Log</h2>
-
-<p>|Description                    | Command                                           |
-|---                            |---                                                |
-|Git log                        |  <code>git log --oneline</code>                              |
-|Log with status                |  <code>git log --stat</code>                                 |
-|Formatted output               |  <code>git log --pretty=format:"%h - %an, %ar : %s"</code>   |</p>
-
+<table>
+<thead>
+<tr class="header">
+<th align="left">Description</th>
+<th align="left">Command</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Git log</td>
+<td align="left"><code>git log --oneline</code></td>
+</tr>
+<tr class="even">
+<td align="left">Log with status</td>
+<td align="left"><code>git log --stat</code></td>
+</tr>
+<tr class="odd">
+<td align="left">Formatted output</td>
+<td align="left"><code>git log --pretty=format:&quot;%h - %an, %ar : %s&quot;</code></td>
+</tr>
+</tbody>
+</table>
 <h2 id="tag">Tag</h2>
-
-<p>|Description                    | Command                                           |
-|---                            |---                                                |
-|List tags                      |  <code>git ls-remote --tags</code>                           |
-|Create a tag                   |  <code>git tag &lt;tagname&gt;</code>                              |
-|Push a tag to remote           |  <code>git push origin --tags</code>                         |
-|Fetch tags                     |  <code>git fetch --tags</code>                               |
-|Checkout to a tag              |  <code>git checkout tags/&lt;tag_name&gt;</code>                   |
-|Delete a tag local             |  <code>git tag -d &lt;tagname&gt;</code>                           |
-|Delete a tag remote            |  <code>git push --delete origin &lt;tag_name&gt;</code>            |</p>
-
+<table>
+<thead>
+<tr class="header">
+<th align="left">Description</th>
+<th align="left">Command</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">List tags</td>
+<td align="left"><code>git ls-remote --tags</code></td>
+</tr>
+<tr class="even">
+<td align="left">Create a tag</td>
+<td align="left"><code>git tag &lt;tagname&gt;</code></td>
+</tr>
+<tr class="odd">
+<td align="left">Push a tag to remote</td>
+<td align="left"><code>git push origin --tags</code></td>
+</tr>
+<tr class="even">
+<td align="left">Fetch tags</td>
+<td align="left"><code>git fetch --tags</code></td>
+</tr>
+<tr class="odd">
+<td align="left">Checkout to a tag</td>
+<td align="left"><code>git checkout tags/&lt;tag_name&gt;</code></td>
+</tr>
+<tr class="even">
+<td align="left">Delete a tag local</td>
+<td align="left"><code>git tag -d &lt;tagname&gt;</code></td>
+</tr>
+<tr class="odd">
+<td align="left">Delete a tag remote</td>
+<td align="left"><code>git push --delete origin &lt;tag_name&gt;</code></td>
+</tr>
+</tbody>
+</table>
 <h2 id="clear">Clear</h2>
-
-<p>|Description                    | Command                                           |
-|---                            |---                                                |
-|View what files will delete    |  <code>git clean -n</code>                                   |
-|Clean/delete files             |  <code>git clean -f</code>                                   |
-|Stash your local changes       |  <code>git stash</code>                                      |
-|View stash list                |  <code>git stash list</code>                                 |
-|Apply a stash (local changes)  |  <code>git stash apply</code>                                |</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Description</th>
+<th align="left">Command</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">View what files will delete</td>
+<td align="left"><code>git clean -n</code></td>
+</tr>
+<tr class="even">
+<td align="left">Clean/delete files</td>
+<td align="left"><code>git clean -f</code></td>
+</tr>
+<tr class="odd">
+<td align="left">Stash your local changes</td>
+<td align="left"><code>git stash</code></td>
+</tr>
+<tr class="even">
+<td align="left">View stash list</td>
+<td align="left"><code>git stash list</code></td>
+</tr>
+<tr class="odd">
+<td align="left">Apply a stash (local changes)</td>
+<td align="left"><code>git stash apply</code></td>
+</tr>
+</tbody>
+</table>
