@@ -1,0 +1,85 @@
+<hr />
+
+<h2 id="configurations">Configurations</h2>
+
+<p>|Description                    | Command                                           |
+|---                            |---                                                |
+|Show git configs               |  <code>git config --list</code>                              |
+|Show username                  |  <code>git config --global user.name</code>                  |
+|Set username                   |  <code>git config --global user.name "username"</code>       |
+|Show email                     |  <code>git config --global user.email</code>                 |
+|Set email                      |  <code>git config --global user.email "email"</code>         |</p>
+
+<h2 id="remotes">Remotes</h2>
+
+<p>|Description                    | Command                                           |
+|---                            |---                                                |
+|List remotes                   |  <code>git remote -v</code>                                  |
+|List remote branches           |  <code>git ls-remote --heads origin</code>                   |
+|Add a remote                   |  <code>git remote add &lt;remote-name&gt; &lt;remote-url&gt;</code>      |
+|Remove a remote                |  <code>git remote rm &lt;remote-name&gt;</code>                    |</p>
+
+<h2 id="commit">Commit</h2>
+
+<p>|Description                    | Command                                           |
+|---                            |---                                                |
+|Check Untracked Files          |  <code>git status</code>                                     |
+|Git add untracked file         |  <code>git add $filename</code>                              |
+|Git add all                    |  <code>git add .</code>                                      |
+|Git commit                     |  <code>git commit -m "commit message"</code>                 |
+|Git push                       |  <code>git push &lt;remote-name&gt; &lt;remote-branch&gt;</code>         |
+|Git commit to previous commit  |  <code>git commit --amend</code>                             |
+|Git pull from remote           |  <code>git pull &lt;remate-name&gt; &lt;branch-branch&gt;</code>         |
+|Git rebase with remote         |  <code>git pull --rebase &lt;remote-name&gt; &lt;branch-name&gt;</code>  |</p>
+
+<h2 id="branch">Branch</h2>
+
+<p>|Description                    | Command                                           |
+|---                            |---                                                |
+|Show current branch            |  <code>git branch</code>                                     |
+|Show remote branch             |  <code>git ls-remote --heads origin</code>                  |
+|Git add new local branch       |  <code>git branch &lt;branch-name&gt;</code>                       |
+|Git checkout to branch         |  <code>git checkout &lt;branch-name&gt;</code>                     |
+|Git create and checkout        |  <code>git checkout -b &lt;branch-name&gt;</code>                  |
+|Delete a local branch          |  <code>git branch -d &lt;branch-name&gt;</code>                    |
+|Delete a remote branch         |  <code>git push origin --delete &lt;branch_name&gt;</code>         |</p>
+
+<h2 id="diff">Diff</h2>
+
+<p>|Description                    | Command                                           |
+|---                            |---                                                |
+|Git diff file                  |  <code>git diff $filename</code>                             |
+|Git diff two revision          |  <code>git diff $sha1 $sha2</code>                           |
+|Git diff only file name        |  <code>git diff --name-only $sha1$sha2</code>                |
+|Compare git diff after commit    |  <code>git diff --cached</code>                              |
+|Compate branches               |  <code>git diff &lt;branch_1&gt; &lt;branch_2&gt;</code>                 |</p>
+
+<h2 id="log">Log</h2>
+
+<p>|Description                    | Command                                           |
+|---                            |---                                                |
+|Git log                        |  <code>git log --oneline</code>                              |
+|Log with status                |  <code>git log --stat</code>                                 |
+|Formatted output               |  <code>git log --pretty=format:"%h - %an, %ar : %s"</code>   |</p>
+
+<h2 id="tag">Tag</h2>
+
+<p>|Description                    | Command                                           |
+|---                            |---                                                |
+|List tags                      |  <code>git ls-remote --tags</code>                           |
+|Create a tag                   |  <code>git tag &lt;tagname&gt;</code>                              |
+|Push a tag to remote           |  <code>git push origin --tags</code>                         |
+|Fetch tags                     |  <code>git fetch --tags</code>                               |
+|Checkout to a tag              |  <code>git checkout tags/&lt;tag_name&gt;</code>                   |
+|Delete a tag local             |  <code>git tag -d &lt;tagname&gt;</code>                           |
+|Delete a tag remote            |  <code>git push --delete origin &lt;tag_name&gt;</code>            |</p>
+
+<h2 id="clear">Clear</h2>
+
+<p>|Description                    | Command                                           |
+|---                            |---                                                |
+|View what files will delete    |  <code>git clean -n</code>                                   |
+|Clean/delete files             |  <code>git clean -f</code>                                   |
+|Stash your local changes       |  <code>git stash</code>                                      |
+|View stash list                |  <code>git stash list</code>                                 |
+|Apply a stash (local changes)  |  <code>git stash apply</code>                                |</p>
